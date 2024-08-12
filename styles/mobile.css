@@ -1,0 +1,11 @@
+@media screen and (max-width:576px){
+    header{
+        box-shadow: none;
+    }
+    nav,.nav-right{
+        flex-direction: column;
+    }
+    nav{
+        gap: 2rem;
+    }
+}
