@@ -8,4 +8,40 @@
     nav{
         gap: 2rem;
     }
+    .navigation{
+        box-shadow: none;
+    }
+    /* banner */
+    .banner{
+        flex-direction: column-reverse;
+        margin: 50px;
+        gap: 50px;
+    }
+    .banner-bg-adjust{
+        background-image: none;
+    }
+    .banner-text{
+        background-image: url(../images/Group\ 14.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 50px;
+        margin: 50px;
+    }
+    /* gamer */
+    .gamer{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .gamer-text{
+        text-align: center;
+        padding: 50px;
+    }
+    /* video */
+    .video{
+        padding: 50px;
+    }
+    .cards{
+        flex-direction: column;
+    }
 }

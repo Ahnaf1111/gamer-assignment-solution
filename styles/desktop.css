@@ -14,6 +14,45 @@
     color:black;
     font-size: 1.3rem;
 }
+section{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.linier-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn{
+    padding:20px 40px;
+    border: 0;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    text-align: center;
+}
+.pink{
+    background-color: #FF42A5;
+}
+.blue{
+    background-color: #4EC5F7;
+}
+.h3-primary{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.p-primary{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
 
 
 
@@ -22,7 +61,7 @@
 
 
 /* header styles */
-header{
+.navigation{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding-top: 2rem;
@@ -65,3 +104,147 @@ nav{
     padding: 16px;
     border: 0;
 }
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 auto;
+    max-width: 1440px;
+}
+.banner-text>h3{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.banner-text>h1{
+font-size: 95px;
+font-weight: 800;
+}
+.banner-text>p{
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 1rem;
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.play-icon{
+    color: #FF42A5;
+    font-size: 0.7rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 4px;
+}
+.download-icon{
+    color: #FF42A5;
+}
+.banner-img>img{
+    width: 100%;
+}
+.banner-bg-adjust{
+    max-width: 1700px;
+    margin: 0 auto;
+    background-image: url(../images/Group\ 14.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+/* gamer section */
+.purpose>h4{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.purpose>p{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.gamer{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+.gamer-img>img{
+    width: 100%;
+}
+.gamer-img{
+    flex: 1;
+}
+.gamer-bg{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.gamer-text{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    max-width: 520px;
+}
+/* video section */
+.video-title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+    display: none;
+}
+.absolute>i{
+    color: #fff;
+    font-size: 2rem;
+}
+.absolute>p{
+    color: #F948B2;
+    font-size: 1rem;
+}
+.card>img{
+    border-radius:48px ;
+}
+.card>img:hover{
+    filter: brightness(50%);
+    outline: 5px solid #FF42A5;
+    border-radius: 48px;
+    transition: all 2s ease;
+}
+.card>img:hover+.absolute{
+    display: block;
+    transition: all 1s ease;
+    /* filter: brightness(50%); */
+}
+.card>img{
+    width: 100%;
+}
+/* .card>img:hover+.card{
+    filter: brightness(50%);
+} */
+.absolute:hover{
+    display: block;
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
+
+
+
+
+
