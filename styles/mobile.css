@@ -74,4 +74,10 @@
         right: -70px;
         left: auto;
     }
+    .career{
+        flex-direction: column;
+    }
+    .career-text{
+        padding: 50px;
+    }
 }
