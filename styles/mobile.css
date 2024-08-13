@@ -44,4 +44,34 @@
     .cards{
         flex-direction: column;
     }
+    /* game-1 */
+    .games-1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .games-text{
+        text-align: center;
+        margin: 0;
+    }
+    .games-img{
+        max-width: 70%;
+    }
+    .games-img>img{
+        max-width: 100%;
+    }
+    .absolute-img{
+        bottom: -35px;
+        left: -43px;
+    }
+    .absolute-img>img{
+        width: 60%;
+    }
+    .absolute-img-2>img{
+        width: 100%;
+    }
+    .absolute-img-2{
+        right: -70px;
+        left: auto;
+    }
 }
