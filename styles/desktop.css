@@ -354,7 +354,51 @@ gap: 1rem;
     margin-top: 120px;
     margin-bottom: 120px;
 }
-
-
+/* footer */
+footer{
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0B0223;
+    color: #FFF;
+    padding: 50px;
+    text-align: center;
+}
+.short-links{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.f-service,.socials{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.socials{
+    font-size: 2rem;
+}
+.facebook{
+    background-color: blue;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+}
+.youtube{
+    background-color: red;
+    /* border-radius: 50%; */
+    width: 33px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 2.5rem;
+}
 
 
